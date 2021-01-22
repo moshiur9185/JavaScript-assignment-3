@@ -7,11 +7,11 @@ function kilometerToMeter(kilometer) {
     if (kilometer < 0) {
         return invalid;
     }
-    else{
+    else {
         lengthMeter = kilometer * 1000;
     }
     return lengthMeter;
-} 
+}
 
 // kilometerToMeter js program ends here.
 
@@ -28,7 +28,7 @@ function budgetCalculator(watch, phone, laptop) {
         var totalPhonePrice = phone * 100;
         var totalLaptopPrice = laptop * 500;
         totalPrice = totalWatchPrice + totalPhonePrice + totalLaptopPrice;
-        
+
     }
     return totalPrice;
 }
@@ -41,7 +41,7 @@ function budgetCalculator(watch, phone, laptop) {
 
 function hotelCost(day) {
     var totalCost = 0;
-    if (day < 0){
+    if (day < 0) {
         return invalid;
     }
 
@@ -61,7 +61,7 @@ function hotelCost(day) {
         reminingDay = day - 20;
         var thirdCost = reminingDay * 50;
 
-        totalCost = firstCost +secondCost + thirdCost;
+        totalCost = firstCost + secondCost + thirdCost;
 
     }
     return totalCost;
