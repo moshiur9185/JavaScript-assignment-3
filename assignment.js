@@ -5,7 +5,7 @@
 function kilometerToMeter(kilometer) {
     let lengthMeter = 0;
     if (kilometer < 0) {
-        return invalid;
+        return "invalid";
     }
     else {
         lengthMeter = kilometer * 1000;
@@ -21,7 +21,7 @@ function kilometerToMeter(kilometer) {
 function budgetCalculator(watch, phone, laptop) {
     var totalPrice = 0;
     if (watch < 0 || phone < 0 || laptop < 0) {
-        return invalid;
+        return "invalid";
     }
     else {
         var totalWatchPrice = watch * 50;
@@ -42,7 +42,7 @@ function budgetCalculator(watch, phone, laptop) {
 function hotelCost(day) {
     var totalCost = 0;
     if (day < 0) {
-        return invalid;
+        return "invalid";
     }
 
     else if (day <= 10) {
@@ -65,8 +65,8 @@ function hotelCost(day) {
 
     }
     return totalCost;
-
 }
+
 
 // hotelCost js program ends here.
 
